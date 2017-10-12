@@ -15,7 +15,7 @@ namespace WebUI
 
             routes.MapRoute(
                 name: null,
-                url: "page/{page}",
+                url: "Page{page}",
                 defaults: new { Controller = "Game", action = "List" }
                 );
 
